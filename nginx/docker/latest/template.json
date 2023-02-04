@@ -1,0 +1,38 @@
+{
+    "imageUrl":"nginx:latest",
+    "privileged":true,
+    "portParams":[
+        {
+            "prompt":"http访问端口",
+            "key":"80",
+            "value":"80",
+            "protocol":"http"
+        },
+        {
+            "prompt":"https访问端口",
+            "key":"443",
+            "value":"443",
+            "protocol":"http"
+        }
+    ],
+    "envParams":[
+    ],
+    "localVolume":[
+        {
+            "prompt":"配置文件",
+            "key":"/etc/nginx/nginx.conf",
+            "value":"",
+            "name":"nginx.conf",
+            "mountFile":true
+        }
+    ],
+    "dfsVolume":[
+        {
+            "prompt":"证书文件目录",
+            "key":"/ca",
+            "value":"",
+            "name":"ca"
+        }
+    ]
+}
+
