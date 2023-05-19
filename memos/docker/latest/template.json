@@ -1,0 +1,38 @@
+{
+    "imageUrl":"neosmemo/memos:latest",
+    "portParams":[
+        {
+            "prompt":"Memos服务器端口",
+            "key":"5230",
+            "value":"5230",
+            "protocol":"tcp"
+        }
+    ],
+    "envParams":[
+        {
+            "prompt":"用户名",
+            "key":"USER",
+            "value":"USER_NAME_PLACEHOLDER;USER_PASSWD_PLACEHOLDER",
+            "hide":true
+        },
+        {
+            "prompt":"分享配置",
+            "key":"SHARE",
+            "value":"MOUNT_NAME_PLACEHOLDER;/data/;yes;no;no;all;USER_NAME_PLACEHOLDER",
+            "hide":true
+        }
+    ],
+    "localVolume":[
+    ],
+    "dfsVolume":[
+        {
+            "prompt":"默认目录",
+            "key":"/var/opt/memos",
+            "value":"",
+            "name":"data"
+        }
+    ],
+    "otherParams":[
+    ]
+}
+
