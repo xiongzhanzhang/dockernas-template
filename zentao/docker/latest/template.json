@@ -2,15 +2,15 @@
     "imageUrl":"easysoft/zentao:latest",
     "portParams":[
         {
-            "prompt":"zentao 禅道项目管理系统",
+            "prompt":"系统访问端口",
             "key":"80",
-            "value":"80",
+            "value":"18080",
             "protocol":"http"
         }
     ],
     "envParams":[
         {
-            "prompt":"mysql root密码",
+            "prompt":"MySQL root密码",
             "key":"MYSQL_ROOT_PASSWORD",
             "value":"MYSQL_ROOT_PASSWORD",
             "hide":true
@@ -26,7 +26,7 @@
             "name":"data"
         },
         {
-            "prompt":"mysql目录",
+            "prompt":"MySQL目录",
             "key":"/var/lib/mysql",
             "value":"",
             "name":"mysql"
@@ -34,7 +34,7 @@
     ],
     "otherParams":[
         {
-            "prompt":"mysql root密码",
+            "prompt":"MySQL root密码",
             "key":"MYSQL_ROOT_PASSWORD",
             "value":"123456",
             "otherType":"placeholder"
