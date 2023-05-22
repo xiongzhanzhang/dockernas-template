@@ -26,12 +26,6 @@
             "name":"data"
         },
         {
-            "prompt":"配置目录",
-            "key":"/opt/emqx/etc",
-            "value":"",
-            "name":"data"
-        },
-        {
             "prompt":"日志目录",
             "key":"/opt/emqx/log",
             "value":"",
