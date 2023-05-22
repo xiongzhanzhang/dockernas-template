@@ -8,6 +8,12 @@
             "protocol":"http"
         },
         {
+            "prompt":"EMQX的WS端口",
+            "key":"8083",
+            "value":"8083",
+            "protocol":"tcp"
+        },
+        {
             "prompt":"EMQX服务端口",
             "key":"1883",
             "value":"1883",
