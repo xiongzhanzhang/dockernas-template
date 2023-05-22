@@ -1,5 +1,5 @@
 {
-    "imageUrl":"docker pull emqx:4.4.18",
+    "imageUrl":"emqx:4.4.18",
     "portParams":[
         {
             "prompt":"EMQX管理端口",
