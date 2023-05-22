@@ -1,0 +1,44 @@
+{
+    "imageUrl":"docker pull emqx:4.4.18",
+    "portParams":[
+        {
+            "prompt":"EMQX管理端口",
+            "key":"18083",
+            "value":"18083",
+            "protocol":"http"
+        },
+        {
+            "prompt":"EMQX服务端口",
+            "key":"1883",
+            "value":"1883",
+            "protocol":"tcp"
+        }
+    ],
+    "envParams":[
+    ],
+    "localVolume":[
+    ],
+    "dfsVolume":[
+        {
+            "prompt":"数据目录",
+            "key":"/opt/emqx/data",
+            "value":"",
+            "name":"data"
+        },
+        {
+            "prompt":"配置目录",
+            "key":"/opt/emqx/etc",
+            "value":"",
+            "name":"data"
+        },
+        {
+            "prompt":"日志目录",
+            "key":"/opt/emqx/log",
+            "value":"",
+            "name":"data"
+        }
+    ],
+    "otherParams":[
+    ]
+}
+
