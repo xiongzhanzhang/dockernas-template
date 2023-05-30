@@ -1,0 +1,26 @@
+{
+    "imageUrl":"zmister/mrdoc",
+    "portParams":[
+        {
+            "prompt":"HTTP默认端口",
+            "key":"10086",
+            "value":"10086",
+            "protocol":"http"
+        }
+    ],
+    "envParams":[
+    ],
+    "localVolume":[
+    ],
+    "dfsVolume":[
+        {
+            "prompt":"数据目录",
+            "key":"/app/MrDoc",
+            "value":"",
+            "name":"data"
+        }
+    ],
+    "otherParams":[
+    ]
+}
+
