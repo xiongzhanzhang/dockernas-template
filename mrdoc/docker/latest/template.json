@@ -1,5 +1,5 @@
 {
-    "imageUrl":"zmister/mrdoc",
+    "imageUrl":"jonnyan404/mrdoc-alpine:latest",
     "portParams":[
         {
             "prompt":"HTTP默认端口",
