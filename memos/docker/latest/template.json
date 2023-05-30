@@ -1,0 +1,26 @@
+{
+    "imageUrl":"neosmemo/memos:latest",
+    "portParams":[
+        {
+            "prompt":"Memos服务器端口",
+            "key":"5230",
+            "value":"5230",
+            "protocol":"http"
+        }
+    ],
+    "envParams":[
+    ],
+    "localVolume":[
+    ],
+    "dfsVolume":[
+        {
+            "prompt":"默认目录",
+            "key":"/var/opt/memos",
+            "value":"",
+            "name":"data"
+        }
+    ],
+    "otherParams":[
+    ]
+}
+

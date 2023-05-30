@@ -1,0 +1,7 @@
+{
+  "name": "emqx",
+  "category": [
+    "网络"
+  ],
+  "summary": "开源 MQTT 消息服务器"
+}

@@ -1,0 +1,44 @@
+{
+    "imageUrl":"emqx:4.4.18",
+    "portParams":[
+        {
+            "prompt":"EMQX管理端口",
+            "key":"18083",
+            "value":"18083",
+            "protocol":"http"
+        },
+        {
+            "prompt":"EMQX的WS端口",
+            "key":"8083",
+            "value":"8083",
+            "protocol":"tcp"
+        },
+        {
+            "prompt":"EMQX服务端口",
+            "key":"1883",
+            "value":"1883",
+            "protocol":"tcp"
+        }
+    ],
+    "envParams":[
+    ],
+    "localVolume":[
+    ],
+    "dfsVolume":[
+        {
+            "prompt":"数据目录",
+            "key":"/opt/emqx/data",
+            "value":"",
+            "name":"data"
+        },
+        {
+            "prompt":"日志目录",
+            "key":"/opt/emqx/log",
+            "value":"",
+            "name":"data"
+        }
+    ],
+    "otherParams":[
+    ]
+}
+

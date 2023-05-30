@@ -1,0 +1,32 @@
+{
+    "imageUrl":"gitea/gitea:latest",
+    "portParams":[
+        {
+            "prompt":"Gitea服务端口",
+            "key":"3000",
+            "value":"3000",
+            "protocol":"http"
+        },
+        {
+            "prompt":"ssh服务端口",
+            "key":"22",
+            "value":"222",
+            "protocol":"tcp"
+        }
+    ],
+    "envParams":[
+    ],
+    "localVolume":[
+    ],
+    "dfsVolume":[
+        {
+            "prompt":"数据目录",
+            "key":"/data",
+            "value":"",
+            "name":"data"
+        }
+    ],
+    "otherParams":[
+    ]
+}
+

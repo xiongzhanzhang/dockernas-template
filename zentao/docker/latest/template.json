@@ -1,0 +1,44 @@
+{
+    "imageUrl":"easysoft/zentao:latest",
+    "portParams":[
+        {
+            "prompt":"系统访问端口",
+            "key":"80",
+            "value":"18080",
+            "protocol":"http"
+        }
+    ],
+    "envParams":[
+        {
+            "prompt":"MySQL root密码",
+            "key":"MYSQL_ROOT_PASSWORD",
+            "value":"MYSQL_ROOT_PASSWORD",
+            "hide":true
+        }
+    ],
+    "localVolume":[
+    ],
+    "dfsVolume":[
+        {
+            "prompt":"禅道主目录",
+            "key":"/www/zentaopms",
+            "value":"",
+            "name":"data"
+        },
+        {
+            "prompt":"MySQL目录",
+            "key":"/var/lib/mysql",
+            "value":"",
+            "name":"mysql"
+        }
+    ],
+    "otherParams":[
+        {
+            "prompt":"MySQL root密码",
+            "key":"MYSQL_ROOT_PASSWORD",
+            "value":"123456",
+            "otherType":"placeholder"
+        }
+    ]
+}
+
