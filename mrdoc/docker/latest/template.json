@@ -1,5 +1,5 @@
 {
-    "imageUrl":"jonnyan404/mrdoc-alpine:latest",
+    "imageUrl":"jonnyan404/mrdoc-alpine",
     "portParams":[
         {
             "prompt":"HTTP默认端口",
